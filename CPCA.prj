@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="4045484448" file="C:\workspace\matlab\CPCA\CPCA.prj" location="C:\workspace\matlab\CPCA" name="CPCA" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="4187944807" file="C:\workspace\matlab\CPCA\CPCA.prj" location="C:\workspace\matlab\CPCA" name="CPCA" target="target.mlapps" target-name="Package App">
     <param.appname>CPCA</param.appname>
     <param.authnamewatermark>Ce Gao</param.authnamewatermark>
     <param.email>gaoce@coe.neu.edu</param.email>
@@ -28,8 +28,11 @@
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}\dist\CPCA.mlappinstall</param.output>
-    <param.guid>ee95a7bb-b844-4072-b98a-1e6f5821e53d</param.guid>
+    <param.guid>a73ff81a-63dc-491d-a28e-30d1089afe5f</param.guid>
     <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
       <param.description />
       <param.screenshot />
       <param.version />

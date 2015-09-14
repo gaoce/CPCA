@@ -15,7 +15,7 @@ function exportData(rank)
 % Toolbox:  CPCA, based on MATLAB R2012a
 
 [fileName, pathName, ~] = uiputfile([pwd, '/.rnk'], ...
-    'Enter Gene List File Name:', 'cpca.rnk');
+    'Enter Output File Name', 'cpca.rnk');
 
 fh = fopen([pathName, fileName],'w');
 for j  = 1:length(rank.gene)
